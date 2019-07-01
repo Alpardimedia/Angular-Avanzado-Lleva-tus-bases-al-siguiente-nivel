@@ -1,0 +1,12 @@
+.login-page,
+.register-page {
+    background: transparent !important;
+}
+
+.login-box-body,
+.register-box-body {
+    background: #d2d6de !important;
+    padding: 20px;
+    border-top: 0;
+    color: #666;
+}

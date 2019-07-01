@@ -1,0 +1,54 @@
+<div class="register-page">
+    <div class="register-box">
+        <div class="register-logo">
+            <a [routerLink]="['/dashboard']"><b>Admin</b>PRO</a>
+        </div>
+
+        <div class="register-box-body">
+            <p class="login-box-msg">Register a new membership</p>
+
+            <form action="../../index.html" method="post">
+                <div class="form-group has-feedback">
+                    <input type="text" class="form-control" placeholder="Nombre completo">
+                    <span class="glyphicon glyphicon-user form-control-feedback"></span>
+                </div>
+                <div class="form-group has-feedback">
+                    <input type="email" class="form-control" placeholder="Email">
+                    <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                </div>
+                <div class="form-group has-feedback">
+                    <input type="password" class="form-control" placeholder="Contraseña">
+                    <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                </div>
+                <div class="form-group has-feedback">
+                    <input type="password" class="form-control" placeholder="Repetir contraseña">
+                    <span class="glyphicon glyphicon-log-in form-control-feedback"></span>
+                </div>
+                <div class="row pl-2 pr-1">
+                    <div class="col-xs-12">
+                        <button type="submit" class="btn btn-primary btn-block btn-flat">Registrarse</button>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"> Acepto los <a href="#">términos</a>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            <div class="social-auth-links text-center">
+                <p>- O sino puedes registrarte -</p>
+                <a href="#" class="btn btn-block btn-social btn-facebook"><i class="fa fa-facebook"></i> Inicia sesión usando
+              Facebook</a>
+                <a href="#" class="btn btn-block btn-social btn-google"><i class="fa fa-google-plus"></i> Inicia sesión usando
+              Google</a>
+            </div>
+
+            <a [routerLink]="['/login']" class="text-center">Ya tienes una cuenta, inicia sesión</a>
+        </div>
+        <!-- /.form-box -->
+    </div>
+    <!-- /.register-box -->
+</div>
