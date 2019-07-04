@@ -1,44 +1,50 @@
-<!-- Left side column. contains the sidebar -->
-<aside class="main-sidebar">
-    <!-- sidebar: style can be found in sidebar.less -->
-    <section class="sidebar">
-        <!-- Sidebar user panel -->
-        <div class="user-panel">
-            <div class="pull-left image">
-                <img src="assets/img/user2-160x160.jpg" class="img-circle" alt="User Image">
-            </div>
-            <div class="pull-left info">
-                <p>Alexander Pierce</p>
-                <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
-            </div>
-        </div>
-        <!-- search form -->
-        <form action="#" method="get" class="sidebar-form">
-            <div class="input-group">
-                <input type="text" name="q" class="form-control" placeholder="Buscar...">
-                <span class="input-group-btn">
-                    <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
-                    </button>
-                  </span>
-            </div>
-        </form>
-        <!-- /.search form -->
-        <!-- sidebar menu: : style can be found in sidebar.less -->
-        <ul class="sidebar-menu" data-widget="tree">
-            <li class="header">Menú principal</li>
-            <li class="treeview">
-                <a href="#">
-                    <i class="fa fa-dashboard"></i> <span>Escritorio</span>
-                    <span class="pull-right-container">
-                  <i class="fa fa-angle-right pull-right"></i>
-                </span>
-                </a>
-                <ul class="treeview-menu">
-                    <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-                    <li><a href="../../index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
-                </ul>
-            </li>
-        </ul>
-    </section>
-    <!-- /.sidebar -->
+<!-- ============================================================== -->
+<!-- Left Sidebar - style you can find in sidebar.scss  -->
+<!-- ============================================================== -->
+<aside class="left-sidebar">
+    <!-- Sidebar scroll-->
+    <div class="scroll-sidebar">
+        <!-- Sidebar navigation-->
+        <nav class="sidebar-nav">
+            <ul id="sidebarnav">
+                <li class="user-profile">
+                    <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false">
+                        <img src="../assets/images/users/1.jpg" alt="user" />
+                        <span class="hide-menu"> Alberto Pardo </span>
+                    </a>
+                    <ul aria-expanded="false" class="collapse">
+                        <li><a routerLinkActive="active" routerLink="/perfil">Perfil </a></li>
+                        <li><a href="javascript:void()">My Balance</a></li>
+                        <li><a href="javascript:void()">Inbox</a></li>
+                        <li><a routerLinkActive="active" routerLink="/account-settings">Account Setting</a></li>
+                        <li><a class="pointer">Logout</a></li>
+                    </ul>
+                </li>
+                <li class="nav-devider"></li>
+                <li class="nav-small-cap">PERSONAL</li>
+
+
+                <li>
+                    <a class="has-arrow waves-effect waves-dark" aria-expanded="false"><i class="fa fa-dashboard"></i><span class="hide-menu"> Escritorio <span class="label label-rouded label-themecolor pull-right"> 4 </span></span></a>
+                    <ul aria-expanded="false" class="collapse">
+
+                        <li>
+                            <a routerLinkActive="active"> Provincial </a>
+                        </li>
+
+                        <!-- <li><a href="index2.html">Analytical</a></li>
+                            <li><a href="index3.html">Demographical</a></li>
+                            <li><a href="index4.html">Modern</a></li> -->
+                    </ul>
+                </li>
+
+
+            </ul>
+        </nav>
+        <!-- End Sidebar navigation -->
+    </div>
+    <!-- End Sidebar scroll-->
 </aside>
+<!-- ============================================================== -->
+<!-- End Left Sidebar - style you can find in sidebar.scss  -->
+<!-- ============================================================== -->
