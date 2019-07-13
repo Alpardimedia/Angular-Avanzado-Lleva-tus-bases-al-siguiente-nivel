@@ -52,7 +52,7 @@ export class RegisterComponent implements OnInit {
       password: '123456',
       password2: '123456',
       condiciones: true
-    })
+    });
   }
 
   registrarUsuario(){
